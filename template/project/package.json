@@ -1,0 +1,23 @@
+{
+  "name": "@iwelson/mock",
+  "version": "1.0.0",
+  "description": "mock-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mock",
+    "mock-server"
+  ],
+  "author": "welson",
+  "devDependencies": {
+    "koa": "^2.7.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "dependencies": {
+    "koa-bodyparser": "^4.2.1"
+  }
+}

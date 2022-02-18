@@ -1,0 +1,33 @@
+{
+  "name": "@iwelson/mock-server-cli",
+  "version": "0.0.3",
+  "description": "mock-server-cli is a mock-api service based on Koa2",
+  "main": "index.js",
+  "bin": {
+    "ms": "./bin/index.js",
+    "mock-server": "./bin/index.js"
+  },
+  "scripts": {
+    "push": "npm publish & git push"
+  },
+  "keywords": [
+    "mock",
+    "mock-server",
+    "cli"
+  ],
+  "author": "welson",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^6.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12.0"
+  }
+}
