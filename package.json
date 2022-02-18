@@ -1,6 +1,6 @@
 {
   "name": "@iwelson/mock-server-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "mock-server-cli is a mock-api service based on Koa2",
   "bin": {
     "ms": "./bin/index.js",
