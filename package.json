@@ -2,11 +2,11 @@
   "name": "@iwelson/mock-server-cli",
   "version": "0.0.6",
   "description": "mock-server-cli is a mock-api service based on Koa2",
-  "main": "index.js",
   "bin": {
     "ms": "./bin/index.js",
     "mock-server": "./bin/index.js"
   },
+  "homepage": "https://github.com/Mr-Welson/mock-server-cli",
   "keywords": [
     "mock",
     "mock-server",
